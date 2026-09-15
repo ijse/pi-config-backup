@@ -1,0 +1,13 @@
+{
+  "name": "pi-model-router-local",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Conservative, consent-based Copilot model routing for Pi TUI",
+  "scripts": {
+    "test": "node --experimental-strip-types --test tests/*.test.mjs"
+  },
+  "engines": { "node": ">=22.18.0" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "pi": { "extensions": ["./src/index.ts"] }
+}

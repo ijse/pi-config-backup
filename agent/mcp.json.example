@@ -1,0 +1,16 @@
+{
+  "imports": [],
+  "mcpServers": {
+    "FeishuProjectMcp": {
+      "type": "http",
+      "url": "https://project.feishu.cn/mcp_server/v1",
+      "headers": {
+        "X-Mcp-Token": "${SET_THIS_LOCALLY}"
+      }
+    }
+  },
+  "settings": {
+    "hostConfigDiscovery": "off",
+    "mcpFooterStatus": "compact"
+  }
+}

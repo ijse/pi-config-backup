@@ -1,0 +1,39 @@
+{
+  "name": "pi-skill-monitor",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Read-only skill evidence monitor for Pi: status line and session-aware detail panel",
+  "license": "MIT",
+  "author": "ijse",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ijse/pi-skill-monitor.git"
+  },
+  "homepage": "https://github.com/ijse/pi-skill-monitor#readme",
+  "bugs": { "url": "https://github.com/ijse/pi-skill-monitor/issues" },
+  "keywords": ["pi-package", "pi-extension", "skills", "observability"],
+  "engines": { "node": ">=22.18.0" },
+  "packageManager": "pnpm@11.24.0",
+  "pi": { "extensions": ["./index.ts"] },
+  "scripts": {
+    "test": "node --experimental-strip-types --test test/*.test.ts",
+    "typecheck": "tsc --noEmit",
+    "smoke": "node scripts/smoke.mjs",
+    "check": "npm run typecheck && npm test && npm run smoke"
+  },
+  "peerDependencies": {
+    "@earendil-works/pi-coding-agent": "*",
+    "@earendil-works/pi-tui": "*"
+  },
+  "peerDependenciesMeta": {
+    "@earendil-works/pi-coding-agent": { "optional": true },
+    "@earendil-works/pi-tui": { "optional": true }
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "0.85.1",
+    "@earendil-works/pi-tui": "0.85.1",
+    "@types/node": "22.10.2",
+    "typescript": "5.9.3"
+  }
+}

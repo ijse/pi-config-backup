@@ -1,0 +1,1000 @@
+TAP version 13
+# Subtest: appendEntry failure locks automation: first substantive state save
+ok 1 - appendEntry failure locks automation: first substantive state save
+  ---
+  duration_ms: 4.314083
+  type: 'test'
+  ...
+# Subtest: appendEntry failure locks automation: upgrade asked-flag save
+ok 2 - appendEntry failure locks automation: upgrade asked-flag save
+  ---
+  duration_ms: 1.198542
+  type: 'test'
+  ...
+# Subtest: appendEntry failure locks automation: post-switch state save
+ok 3 - appendEntry failure locks automation: post-switch state save
+  ---
+  duration_ms: 1.037959
+  type: 'test'
+  ...
+# Subtest: provider switch exceptions never expose raw message/stack to notifications, logs or persisted state
+ok 4 - provider switch exceptions never expose raw message/stack to notifications, logs or persisted state
+  ---
+  duration_ms: 0.4885
+  type: 'test'
+  ...
+# Subtest: thinking setter exceptions never expose raw message/stack to notifications, logs or persisted state
+ok 5 - thinking setter exceptions never expose raw message/stack to notifications, logs or persisted state
+  ---
+  duration_ms: 0.514833
+  type: 'test'
+  ...
+# Subtest: confirmation UI exceptions never expose raw message/stack to notifications, logs or persisted state
+ok 6 - confirmation UI exceptions never expose raw message/stack to notifications, logs or persisted state
+  ---
+  duration_ms: 0.659875
+  type: 'test'
+  ...
+# Subtest: real settings: only approved fields changed; unrelated settings and prior thinking keys preserved
+ok 7 - real settings: only approved fields changed; unrelated settings and prior thinking keys preserved
+  ---
+  duration_ms: 1.450625
+  type: 'test'
+  ...
+# Subtest: real settings: exact default, ordered 15-model scope, and four per-model thinking defaults
+ok 8 - real settings: exact default, ordered 15-model scope, and four per-model thinking defaults
+  ---
+  duration_ms: 1.321125
+  type: 'test'
+  ...
+# Subtest: real models-store metadata: every approved ID exists uniquely under GitHub Copilot
+ok 9 - real models-store metadata: every approved ID exists uniquely under GitHub Copilot
+  ---
+  duration_ms: 0.481542
+  type: 'test'
+  ...
+# Subtest: real four-tier metadata supports target thinking without clamping (real Pi pure capability helpers)
+ok 10 - real four-tier metadata supports target thinking without clamping (real Pi pure capability helpers)
+  ---
+  duration_ms: 14.316583
+  type: 'test'
+  ...
+# Subtest: classify continue: ""
+ok 11 - classify continue: ""
+  ---
+  duration_ms: 3.620625
+  type: 'test'
+  ...
+# Subtest: classify continue: "   "
+ok 12 - classify continue: "   "
+  ---
+  duration_ms: 0.083291
+  type: 'test'
+  ...
+# Subtest: classify continue: "继续"
+ok 13 - classify continue: "继续"
+  ---
+  duration_ms: 0.282792
+  type: 'test'
+  ...
+# Subtest: classify continue: "好的"
+ok 14 - classify continue: "好的"
+  ---
+  duration_ms: 0.05975
+  type: 'test'
+  ...
+# Subtest: classify continue: "2"
+ok 15 - classify continue: "2"
+  ---
+  duration_ms: 0.194167
+  type: 'test'
+  ...
+# Subtest: classify continue: "继续。"
+ok 16 - classify continue: "继续。"
+  ---
+  duration_ms: 0.160792
+  type: 'test'
+  ...
+# Subtest: classify continue: "ok"
+ok 17 - classify continue: "ok"
+  ---
+  duration_ms: 0.055292
+  type: 'test'
+  ...
+# Subtest: classify continue: "Continue"
+ok 18 - classify continue: "Continue"
+  ---
+  duration_ms: 0.05525
+  type: 'test'
+  ...
+# Subtest: classify continue: "yes"
+ok 19 - classify continue: "yes"
+  ---
+  duration_ms: 0.339292
+  type: 'test'
+  ...
+# Subtest: classify simple: "翻译成英文：早上好。"
+ok 20 - classify simple: "翻译成英文：早上好。"
+  ---
+  duration_ms: 3.148459
+  type: 'test'
+  ...
+# Subtest: classify simple: "Translate to Chinese: Good morning."
+ok 21 - classify simple: "Translate to Chinese: Good morning."
+  ---
+  duration_ms: 0.9465
+  type: 'test'
+  ...
+# Subtest: classify simple: "润色这句话：期待你的回复。"
+ok 22 - classify simple: "润色这句话：期待你的回复。"
+  ---
+  duration_ms: 0.050083
+  type: 'test'
+  ...
+# Subtest: classify simple: "Polish this sentence: I look forward to your reply."
+ok 23 - classify simple: "Polish this sentence: I look forward to your reply."
+  ---
+  duration_ms: 0.03625
+  type: 'test'
+  ...
+# Subtest: classify simple: "解释术语：光合作用"
+ok 24 - classify simple: "解释术语：光合作用"
+  ---
+  duration_ms: 0.027083
+  type: 'test'
+  ...
+# Subtest: classify simple: "Explain the term photosynthesis."
+ok 25 - classify simple: "Explain the term photosynthesis."
+  ---
+  duration_ms: 0.029541
+  type: 'test'
+  ...
+# Subtest: classify simple: "简短摘要：今天晴天，我们去公园散步。"
+ok 26 - classify simple: "简短摘要：今天晴天，我们去公园散步。"
+  ---
+  duration_ms: 0.026375
+  type: 'test'
+  ...
+# Subtest: classify simple: "Summarize briefly: The meeting starts at noon."
+ok 27 - classify simple: "Summarize briefly: The meeting starts at noon."
+  ---
+  duration_ms: 0.029625
+  type: 'test'
+  ...
+# Subtest: classify routine: "实现一个读取 CSV 的函数"
+ok 28 - classify routine: "实现一个读取 CSV 的函数"
+  ---
+  duration_ms: 0.0255
+  type: 'test'
+  ...
+# Subtest: classify routine: "Implement a CSV parser."
+ok 29 - classify routine: "Implement a CSV parser."
+  ---
+  duration_ms: 0.024833
+  type: 'test'
+  ...
+# Subtest: classify routine: "帮我看看这个问题"
+ok 30 - classify routine: "帮我看看这个问题"
+  ---
+  duration_ms: 0.024458
+  type: 'test'
+  ...
+# Subtest: classify routine: "Can you help me with this task?"
+ok 31 - classify routine: "Can you help me with this task?"
+  ---
+  duration_ms: 0.026916
+  type: 'test'
+  ...
+# Subtest: classify routine: "修复按钮的一个小问题"
+ok 32 - classify routine: "修复按钮的一个小问题"
+  ---
+  duration_ms: 0.03025
+  type: 'test'
+  ...
+# Subtest: classify routine: "Fix a small bug in the button."
+ok 33 - classify routine: "Fix a small bug in the button."
+  ---
+  duration_ms: 0.025708
+  type: 'test'
+  ...
+# Subtest: classify complex: "进行跨模块重构"
+ok 34 - classify complex: "进行跨模块重构"
+  ---
+  duration_ms: 0.024167
+  type: 'test'
+  ...
+# Subtest: classify complex: "Refactor across multiple modules."
+ok 35 - classify complex: "Refactor across multiple modules."
+  ---
+  duration_ms: 0.023542
+  type: 'test'
+  ...
+# Subtest: classify complex: "为这个服务做系统设计"
+ok 36 - classify complex: "为这个服务做系统设计"
+  ---
+  duration_ms: 0.026292
+  type: 'test'
+  ...
+# Subtest: classify complex: "Create a system design for the service."
+ok 37 - classify complex: "Create a system design for the service."
+  ---
+  duration_ms: 0.02425
+  type: 'test'
+  ...
+# Subtest: classify complex: "排查难以复现的问题"
+ok 38 - classify complex: "排查难以复现的问题"
+  ---
+  duration_ms: 0.024417
+  type: 'test'
+  ...
+# Subtest: classify complex: "Debug an intermittent hard-to-reproduce issue."
+ok 39 - classify complex: "Debug an intermittent hard-to-reproduce issue."
+  ---
+  duration_ms: 0.024667
+  type: 'test'
+  ...
+# Subtest: classify critical: "执行安全审计"
+ok 40 - classify critical: "执行安全审计"
+  ---
+  duration_ms: 0.023584
+  type: 'test'
+  ...
+# Subtest: classify critical: "Perform a security audit."
+ok 41 - classify critical: "Perform a security audit."
+  ---
+  duration_ms: 0.023084
+  type: 'test'
+  ...
+# Subtest: classify critical: "排查生产故障"
+ok 42 - classify critical: "排查生产故障"
+  ---
+  duration_ms: 0.02325
+  type: 'test'
+  ...
+# Subtest: classify critical: "Investigate a production outage."
+ok 43 - classify critical: "Investigate a production outage."
+  ---
+  duration_ms: 0.02225
+  type: 'test'
+  ...
+# Subtest: classify critical: "深度排查并发和数据一致性问题"
+ok 44 - classify critical: "深度排查并发和数据一致性问题"
+  ---
+  duration_ms: 0.022
+  type: 'test'
+  ...
+# Subtest: classify critical: "Investigate race conditions and data consistency."
+ok 45 - classify critical: "Investigate race conditions and data consistency."
+  ---
+  duration_ms: 0.975542
+  type: 'test'
+  ...
+# Subtest: classify critical: "系统设计与安全审计"
+ok 46 - classify critical: "系统设计与安全审计"
+  ---
+  duration_ms: 0.099375
+  type: 'test'
+  ...
+# Subtest: classify critical: "System design and security audit."
+ok 47 - classify critical: "System design and security audit."
+  ---
+  duration_ms: 0.076041
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Translate this code:\\n```js\\nconst n = 1;\\n```
+ok 48 - risk/attachment/length blocks Luna: Translate this code:\\n```js\\nconst n = 1;\\n```
+  ---
+  duration_ms: 0.154084
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: 翻译：```js\\nconst n = 1;\\n```
+ok 49 - risk/attachment/length blocks Luna: 翻译：```js\\nconst n = 1;\\n```
+  ---
+  duration_ms: 0.076667
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Summarize @src/index.ts
+ok 50 - risk/attachment/length blocks Luna: Summarize @src/index.ts
+  ---
+  duration_ms: 0.072459
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: 简短摘要：./src/index.ts
+ok 51 - risk/attachment/length blocks Luna: 简短摘要：./src/index.ts
+  ---
+  duration_ms: 0.072084
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Explain the attached picture.
+ok 52 - risk/attachment/length blocks Luna: Explain the attached picture.
+  ---
+  duration_ms: 0.068542
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: 翻译成英文：早上好。
+ok 53 - risk/attachment/length blocks Luna: 翻译成英文：早上好。
+  ---
+  duration_ms: 0.069042
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Explain how to modify the parser.
+ok 54 - risk/attachment/length blocks Luna: Explain how to modify the parser.
+  ---
+  duration_ms: 0.07425
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: 解释这个调试问题
+ok 55 - risk/attachment/length blocks Luna: 解释这个调试问题
+  ---
+  duration_ms: 0.069291
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Summarize the architecture.
+ok 56 - risk/attachment/length blocks Luna: Summarize the architecture.
+  ---
+  duration_ms: 0.078667
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: 解释安全机制
+ok 57 - risk/attachment/length blocks Luna: 解释安全机制
+  ---
+  duration_ms: 0.225209
+  type: 'test'
+  ...
+# Subtest: risk/attachment/length blocks Luna: Translate: This is a long passage. This is a long passage. This i
+ok 58 - risk/attachment/length blocks Luna: Translate: This is a long passage. This is a long passage. This i
+  ---
+  duration_ms: 0.082125
+  type: 'test'
+  ...
+# Subtest: critical wins over simple and complex: 简短摘要：生产故障与系统设计
+ok 59 - critical wins over simple and complex: 简短摘要：生产故障与系统设计
+  ---
+  duration_ms: 0.058292
+  type: 'test'
+  ...
+# Subtest: critical wins over simple and complex: Translate: production outage and system design.
+ok 60 - critical wins over simple and complex: Translate: production outage and system design.
+  ---
+  duration_ms: 0.023334
+  type: 'test'
+  ...
+# Subtest: real Pi loader loads only thin entry offline: one /route, six handlers, zero tools/model actions
+ok 61 - real Pi loader loads only thin entry offline: one /route, six handlers, zero tools/model actions
+  ---
+  duration_ms: 812.666458
+  type: 'test'
+  ...
+# Subtest: registers only /route, required events, and no LLM tools or prompt injection hooks
+ok 62 - registers only /route, required events, and no LLM tools or prompt injection hooks
+  ---
+  duration_ms: 4.286916
+  type: 'test'
+  ...
+# Subtest: first independent simple request lowers default Terra to Luna/low
+ok 63 - first independent simple request lowers default Terra to Luna/low
+  ---
+  duration_ms: 3.555084
+  type: 'test'
+  ...
+# Subtest: continuations do not consume the first independent request
+ok 64 - continuations do not consume the first independent request
+  ---
+  duration_ms: 1.639042
+  type: 'test'
+  ...
+# Subtest: routine first request prevents a later simple request from lowering Terra
+ok 65 - routine first request prevents a later simple request from lowering Terra
+  ---
+  duration_ms: 0.246709
+  type: 'test'
+  ...
+# Subtest: Luna keeps simple and continuation requests, returns to Terra on substantive coding, then stays there
+ok 66 - Luna keeps simple and continuation requests, returns to Terra on substantive coding, then stays there
+  ---
+  duration_ms: 0.332208
+  type: 'test'
+  ...
+# Subtest: image-bearing simple request cannot lower Terra
+ok 67 - image-bearing simple request cannot lower Terra
+  ---
+  duration_ms: 0.260292
+  type: 'test'
+  ...
+# Subtest: ineligible RPC even with UI: neither routing nor dialog nor consumed first request
+ok 68 - ineligible RPC even with UI: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.288958
+  type: 'test'
+  ...
+# Subtest: ineligible print: neither routing nor dialog nor consumed first request
+ok 69 - ineligible print: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.1455
+  type: 'test'
+  ...
+# Subtest: ineligible JSON: neither routing nor dialog nor consumed first request
+ok 70 - ineligible JSON: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 1.452916
+  type: 'test'
+  ...
+# Subtest: ineligible TUI without UI: neither routing nor dialog nor consumed first request
+ok 71 - ineligible TUI without UI: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.95925
+  type: 'test'
+  ...
+# Subtest: ineligible agent busy/retry/compaction: neither routing nor dialog nor consumed first request
+ok 72 - ineligible agent busy/retry/compaction: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.345
+  type: 'test'
+  ...
+# Subtest: ineligible RPC input source: neither routing nor dialog nor consumed first request
+ok 73 - ineligible RPC input source: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.159417
+  type: 'test'
+  ...
+# Subtest: ineligible extension-injected input: neither routing nor dialog nor consumed first request
+ok 74 - ineligible extension-injected input: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.135458
+  type: 'test'
+  ...
+# Subtest: ineligible steering: neither routing nor dialog nor consumed first request
+ok 75 - ineligible steering: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.115459
+  type: 'test'
+  ...
+# Subtest: ineligible queued follow-up: neither routing nor dialog nor consumed first request
+ok 76 - ineligible queued follow-up: neither routing nor dialog nor consumed first request
+  ---
+  duration_ms: 0.16975
+  type: 'test'
+  ...
+# Subtest: slash input stays untouched: /help
+ok 77 - slash input stays untouched: /help
+  ---
+  duration_ms: 0.157166
+  type: 'test'
+  ...
+# Subtest: slash input stays untouched: /skill:security-audit
+ok 78 - slash input stays untouched: /skill:security-audit
+  ---
+  duration_ms: 0.082208
+  type: 'test'
+  ...
+# Subtest: slash input stays untouched:   /template system design
+ok 79 - slash input stays untouched:   /template system design
+  ---
+  duration_ms: 0.082375
+  type: 'test'
+  ...
+# Subtest: explicit true upgrades to sol, includes disclosures and keeps upgraded tier
+ok 80 - explicit true upgrades to sol, includes disclosures and keeps upgraded tier
+  ---
+  duration_ms: 0.490417
+  type: 'test'
+  ...
+# Subtest: explicit true upgrades to astra, includes disclosures and keeps upgraded tier
+ok 81 - explicit true upgrades to astra, includes disclosures and keeps upgraded tier
+  ---
+  duration_ms: 0.23575
+  type: 'test'
+  ...
+# Subtest: upgrade decline / timeout false keeps original model and asks at most once
+ok 82 - upgrade decline / timeout false keeps original model and asks at most once
+  ---
+  duration_ms: 0.142833
+  type: 'test'
+  ...
+# Subtest: upgrade closed undefined keeps original model and asks at most once
+ok 83 - upgrade closed undefined keeps original model and asks at most once
+  ---
+  duration_ms: 0.166917
+  type: 'test'
+  ...
+# Subtest: upgrade closed null keeps original model and asks at most once
+ok 84 - upgrade closed null keeps original model and asks at most once
+  ---
+  duration_ms: 0.306209
+  type: 'test'
+  ...
+# Subtest: upgrade truthy non-boolean keeps original model and asks at most once
+ok 85 - upgrade truthy non-boolean keeps original model and asks at most once
+  ---
+  duration_ms: 0.108042
+  type: 'test'
+  ...
+# Subtest: UI confirmation exception is safe; candidate is still marked asked
+ok 86 - UI confirmation exception is safe; candidate is still marked asked
+  ---
+  duration_ms: 0.326292
+  type: 'test'
+  ...
+# Subtest: Sol refusal permits one distinct Astra suggestion; both flags reset only on new task
+ok 87 - Sol refusal permits one distinct Astra suggestion; both flags reset only on new task
+  ---
+  duration_ms: 1.4055
+  type: 'test'
+  ...
+# Subtest: mixed risk and complexity suggests only Astra
+ok 88 - mixed risk and complexity suggests only Astra
+  ---
+  duration_ms: 0.162667
+  type: 'test'
+  ...
+# Subtest: Luna can upgrade to explicitly confirmed Sol
+ok 89 - Luna can upgrade to explicitly confirmed Sol
+  ---
+  duration_ms: 0.117708
+  type: 'test'
+  ...
+# Subtest: automatic Luna failure: target missing
+ok 90 - automatic Luna failure: target missing
+  ---
+  duration_ms: 0.089625
+  type: 'test'
+  ...
+# Subtest: automatic Luna failure: configured authentication absent
+ok 91 - automatic Luna failure: configured authentication absent
+  ---
+  duration_ms: 0.091042
+  type: 'test'
+  ...
+# Subtest: automatic Luna failure: setModel false
+ok 92 - automatic Luna failure: setModel false
+  ---
+  duration_ms: 0.483625
+  type: 'test'
+  ...
+# Subtest: automatic Luna failure: setModel throws
+ok 93 - automatic Luna failure: setModel throws
+  ---
+  duration_ms: 0.330708
+  type: 'test'
+  ...
+# Subtest: confirmed expensive switch failure missing never falls back
+ok 94 - confirmed expensive switch failure missing never falls back
+  ---
+  duration_ms: 0.339
+  type: 'test'
+  ...
+# Subtest: confirmed expensive switch failure auth absent never falls back
+ok 95 - confirmed expensive switch failure auth absent never falls back
+  ---
+  duration_ms: 0.306709
+  type: 'test'
+  ...
+# Subtest: confirmed expensive switch failure false never falls back
+ok 96 - confirmed expensive switch failure false never falls back
+  ---
+  duration_ms: 0.417875
+  type: 'test'
+  ...
+# Subtest: confirmed expensive switch failure throws never falls back
+ok 97 - confirmed expensive switch failure throws never falls back
+  ---
+  duration_ms: 0.307
+  type: 'test'
+  ...
+# Subtest: partial switch clamped reports actual model/thinking, not complete success
+ok 98 - partial switch clamped reports actual model/thinking, not complete success
+  ---
+  duration_ms: 0.398959
+  type: 'test'
+  ...
+# Subtest: partial switch setting throws reports actual model/thinking, not complete success
+ok 99 - partial switch setting throws reports actual model/thinking, not complete success
+  ---
+  duration_ms: 0.16275
+  type: 'test'
+  ...
+# Subtest: /route luna selects requested tier and locks
+ok 100 - /route luna selects requested tier and locks
+  ---
+  duration_ms: 0.149334
+  type: 'test'
+  ...
+# Subtest: /route terra selects requested tier and locks
+ok 101 - /route terra selects requested tier and locks
+  ---
+  duration_ms: 0.081375
+  type: 'test'
+  ...
+# Subtest: /route sol selects requested tier and locks
+ok 102 - /route sol selects requested tier and locks
+  ---
+  duration_ms: 0.094416
+  type: 'test'
+  ...
+# Subtest: /route astra selects requested tier and locks
+ok 103 - /route astra selects requested tier and locks
+  ---
+  duration_ms: 0.37175
+  type: 'test'
+  ...
+# Subtest: /route sol always confirms, cancellation preserves state
+ok 104 - /route sol always confirms, cancellation preserves state
+  ---
+  duration_ms: 0.139625
+  type: 'test'
+  ...
+# Subtest: /route astra always confirms, cancellation preserves state
+ok 105 - /route astra always confirms, cancellation preserves state
+  ---
+  duration_ms: 0.316834
+  type: 'test'
+  ...
+# Subtest: /route auto authorizes fresh Terra task from locked other provider
+ok 106 - /route auto authorizes fresh Terra task from locked other provider
+  ---
+  duration_ms: 0.451834
+  type: 'test'
+  ...
+# Subtest: /route reset authorizes fresh Terra task from locked other provider
+ok 107 - /route reset authorizes fresh Terra task from locked other provider
+  ---
+  duration_ms: 0.264125
+  type: 'test'
+  ...
+# Subtest: /route auto failure does not authorize auto ({"setResult":false})
+ok 108 - /route auto failure does not authorize auto ({"setResult":false})
+  ---
+  duration_ms: 0.124625
+  type: 'test'
+  ...
+# Subtest: /route auto failure does not authorize auto ({"missing":["gpt-5.6-terra"]})
+ok 109 - /route auto failure does not authorize auto ({"missing":["gpt-5.6-terra"]})
+  ---
+  duration_ms: 0.061708
+  type: 'test'
+  ...
+# Subtest: /route auto failure does not authorize auto ({"auth":false})
+ok 110 - /route auto failure does not authorize auto ({"auth":false})
+  ---
+  duration_ms: 0.062042
+  type: 'test'
+  ...
+# Subtest: /route off does not change model; no later input is routed
+ok 111 - /route off does not change model; no later input is routed
+  ---
+  duration_ms: 0.286792
+  type: 'test'
+  ...
+# Subtest: /route  reports actual model/thinking/mode/asked and help without switching
+ok 112 - /route  reports actual model/thinking/mode/asked and help without switching
+  ---
+  duration_ms: 0.207209
+  type: 'test'
+  ...
+# Subtest: /route status reports actual model/thinking/mode/asked and help without switching
+ok 113 - /route status reports actual model/thinking/mode/asked and help without switching
+  ---
+  duration_ms: 0.098625
+  type: 'test'
+  ...
+# Subtest: invalid command only displays help, never changes model
+ok 114 - invalid command only displays help, never changes model
+  ---
+  duration_ms: 0.0765
+  type: 'test'
+  ...
+# Subtest: busy /route auto is rejected, never deferred
+ok 115 - busy /route auto is rejected, never deferred
+  ---
+  duration_ms: 13.297584
+  type: 'test'
+  ...
+# Subtest: busy /route reset is rejected, never deferred
+ok 116 - busy /route reset is rejected, never deferred
+  ---
+  duration_ms: 0.324417
+  type: 'test'
+  ...
+# Subtest: busy /route luna is rejected, never deferred
+ok 117 - busy /route luna is rejected, never deferred
+  ---
+  duration_ms: 0.179375
+  type: 'test'
+  ...
+# Subtest: busy /route terra is rejected, never deferred
+ok 118 - busy /route terra is rejected, never deferred
+  ---
+  duration_ms: 0.196334
+  type: 'test'
+  ...
+# Subtest: busy /route sol is rejected, never deferred
+ok 119 - busy /route sol is rejected, never deferred
+  ---
+  duration_ms: 0.2455
+  type: 'test'
+  ...
+# Subtest: busy /route astra is rejected, never deferred
+ok 120 - busy /route astra is rejected, never deferred
+  ---
+  duration_ms: 0.285916
+  type: 'test'
+  ...
+# Subtest: busy /route off is rejected, never deferred
+ok 121 - busy /route off is rejected, never deferred
+  ---
+  duration_ms: 0.238125
+  type: 'test'
+  ...
+# Subtest: without UI /route auto is rejected
+ok 122 - without UI /route auto is rejected
+  ---
+  duration_ms: 0.120542
+  type: 'test'
+  ...
+# Subtest: without UI /route reset is rejected
+ok 123 - without UI /route reset is rejected
+  ---
+  duration_ms: 0.091
+  type: 'test'
+  ...
+# Subtest: without UI /route luna is rejected
+ok 124 - without UI /route luna is rejected
+  ---
+  duration_ms: 0.081958
+  type: 'test'
+  ...
+# Subtest: without UI /route terra is rejected
+ok 125 - without UI /route terra is rejected
+  ---
+  duration_ms: 0.049458
+  type: 'test'
+  ...
+# Subtest: without UI /route sol is rejected
+ok 126 - without UI /route sol is rejected
+  ---
+  duration_ms: 0.145
+  type: 'test'
+  ...
+# Subtest: without UI /route astra is rejected
+ok 127 - without UI /route astra is rejected
+  ---
+  duration_ms: 0.048166
+  type: 'test'
+  ...
+# Subtest: without UI status/off remain available without model or confirmation calls
+ok 128 - without UI status/off remain available without model or confirmation calls
+  ---
+  duration_ms: 0.184583
+  type: 'test'
+  ...
+# Subtest: external model_select set locks and is never overridden
+ok 129 - external model_select set locks and is never overridden
+  ---
+  duration_ms: 0.125708
+  type: 'test'
+  ...
+# Subtest: external model_select cycle locks and is never overridden
+ok 130 - external model_select cycle locks and is never overridden
+  ---
+  duration_ms: 0.05575
+  type: 'test'
+  ...
+# Subtest: restore model_select is not treated as manual model choice
+ok 131 - restore model_select is not treated as manual model choice
+  ---
+  duration_ms: 0.096875
+  type: 'test'
+  ...
+# Subtest: manual thinking changes persist across messages, until next authorized switch
+ok 132 - manual thinking changes persist across messages, until next authorized switch
+  ---
+  duration_ms: 0.170583
+  type: 'test'
+  ...
+# Subtest: old confirmation true is invalid after off
+ok 133 - old confirmation true is invalid after off
+  ---
+  duration_ms: 0.157917
+  type: 'test'
+  ...
+# Subtest: old confirmation true is invalid after manual-model
+ok 134 - old confirmation true is invalid after manual-model
+  ---
+  duration_ms: 0.062125
+  type: 'test'
+  ...
+# Subtest: old confirmation true is invalid after shutdown
+ok 135 - old confirmation true is invalid after shutdown
+  ---
+  duration_ms: 0.059417
+  type: 'test'
+  ...
+# Subtest: old confirmation true is invalid after tree
+ok 136 - old confirmation true is invalid after tree
+  ---
+  duration_ms: 0.078666
+  type: 'test'
+  ...
+# Subtest: old confirmation true is invalid after busy
+ok 137 - old confirmation true is invalid after busy
+  ---
+  duration_ms: 0.050667
+  type: 'test'
+  ...
+# Subtest: concurrent inputs cannot create two confirmation flows or concurrent switches
+ok 138 - concurrent inputs cannot create two confirmation flows or concurrent switches
+  ---
+  duration_ms: 1.747834
+  type: 'test'
+  ...
+# Subtest: concurrent expensive command cannot overlap an automatic confirmation
+ok 139 - concurrent expensive command cannot overlap an automatic confirmation
+  ---
+  duration_ms: 0.443042
+  type: 'test'
+  ...
+# Subtest: two simultaneous first simple inputs cannot race duplicate model switches
+ok 140 - two simultaneous first simple inputs cannot race duplicate model switches
+  ---
+  duration_ms: 0.54325
+  type: 'test'
+  ...
+# Subtest: persisted entries contain only the versioned compact state, never raw user input
+ok 141 - persisted entries contain only the versioned compact state, never raw user input
+  ---
+  duration_ms: 0.193958
+  type: 'test'
+  ...
+# Subtest: restore startup respects branch asked state and actual model
+ok 142 - restore startup respects branch asked state and actual model
+  ---
+  duration_ms: 0.141667
+  type: 'test'
+  ...
+# Subtest: restore reload respects branch asked state and actual model
+ok 143 - restore reload respects branch asked state and actual model
+  ---
+  duration_ms: 0.134417
+  type: 'test'
+  ...
+# Subtest: restore resume respects branch asked state and actual model
+ok 144 - restore resume respects branch asked state and actual model
+  ---
+  duration_ms: 0.095291
+  type: 'test'
+  ...
+# Subtest: restore fork respects branch asked state and actual model
+ok 145 - restore fork respects branch asked state and actual model
+  ---
+  duration_ms: 0.075208
+  type: 'test'
+  ...
+# Subtest: restored off mode does not route
+ok 146 - restored off mode does not route
+  ---
+  duration_ms: 0.083375
+  type: 'test'
+  ...
+# Subtest: restored locked mode does not route
+ok 147 - restored locked mode does not route
+  ---
+  duration_ms: 0.057042
+  type: 'test'
+  ...
+# Subtest: existing session without routing state is locked until explicit /route auto
+ok 148 - existing session without routing state is locked until explicit /route auto
+  ---
+  duration_ms: 0.120666
+  type: 'test'
+  ...
+# Subtest: blank session with explicit github-copilot/gpt-5.6-luna starts locked
+ok 149 - blank session with explicit github-copilot/gpt-5.6-luna starts locked
+  ---
+  duration_ms: 0.068417
+  type: 'test'
+  ...
+# Subtest: blank session with explicit github-copilot/gpt-5.6-sol starts locked
+ok 150 - blank session with explicit github-copilot/gpt-5.6-sol starts locked
+  ---
+  duration_ms: 0.046875
+  type: 'test'
+  ...
+# Subtest: blank session with explicit github-copilot/gpt-6-astra starts locked
+ok 151 - blank session with explicit github-copilot/gpt-6-astra starts locked
+  ---
+  duration_ms: 0.039667
+  type: 'test'
+  ...
+# Subtest: blank session with explicit another-provider/gpt-5.6-terra starts locked
+ok 152 - blank session with explicit another-provider/gpt-5.6-terra starts locked
+  ---
+  duration_ms: 0.042541
+  type: 'test'
+  ...
+# Subtest: blank session with explicit github-copilot/unmanaged-id starts locked
+ok 153 - blank session with explicit github-copilot/unmanaged-id starts locked
+  ---
+  duration_ms: 0.04425
+  type: 'test'
+  ...
+# Subtest: blank Terra session with only metadata/model/thinking entries can auto-route
+ok 154 - blank Terra session with only metadata/model/thinking entries can auto-route
+  ---
+  duration_ms: 0.098917
+  type: 'test'
+  ...
+# Subtest: getBranch, never all branches, controls restored permission
+ok 155 - getBranch, never all branches, controls restored permission
+  ---
+  duration_ms: 0.101166
+  type: 'test'
+  ...
+# Subtest: tree navigation restores selected branch instead of inheriting current permission
+ok 156 - tree navigation restores selected branch instead of inheriting current permission
+  ---
+  duration_ms: 0.151167
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: null
+ok 157 - invalid newest state conservatively locks: null
+  ---
+  duration_ms: 0.064375
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {}
+ok 158 - invalid newest state conservatively locks: {}
+  ---
+  duration_ms: 0.092291
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":2,"mode":"auto","seenRequest":false,"asked":{"sol":false,"astra":false}}
+ok 159 - invalid newest state conservatively locks: {"version":2,"mode":"auto","seenRequest":false,"asked":{"sol":false,"astra":false}}
+  ---
+  duration_ms: 0.050291
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":1,"mode":"invalid","seenRequest":false,"asked":{"sol":false,"astra":false}}
+ok 160 - invalid newest state conservatively locks: {"version":1,"mode":"invalid","seenRequest":false,"asked":{"sol":false,"astra":false}}
+  ---
+  duration_ms: 0.049459
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":"false","asked":{"sol":false,"astra":false}}
+ok 161 - invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":"false","asked":{"sol":false,"astra":false}}
+  ---
+  duration_ms: 0.086458
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":null}
+ok 162 - invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":null}
+  ---
+  duration_ms: 0.053042
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":{"sol":false}}
+ok 163 - invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":{"sol":false}}
+  ---
+  duration_ms: 0.084334
+  type: 'test'
+  ...
+# Subtest: invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":{"sol":"true","astra":false}}
+ok 164 - invalid newest state conservatively locks: {"version":1,"mode":"auto","seenRequest":false,"asked":{"sol":"true","astra":false}}
+  ---
+  duration_ms: 0.079625
+  type: 'test'
+  ...
+# Subtest: restored auto record cannot automatically move an unmanaged provider/model
+ok 165 - restored auto record cannot automatically move an unmanaged provider/model
+  ---
+  duration_ms: 0.074375
+  type: 'test'
+  ...
+1..165
+# tests 165
+# suites 0
+# pass 165
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 928.105458

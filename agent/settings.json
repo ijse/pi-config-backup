@@ -1,0 +1,105 @@
+{
+  "lastChangelogVersion": "0.85.1",
+  "theme": "dark",
+  "defaultProvider": "github-copilot",
+  "defaultModel": "gpt-5.6-terra",
+  "defaultThinkingLevel": "medium",
+  "modelThinkingLevels": {
+    "github-copilot/gpt-5.6-luna": "low",
+    "github-copilot/gpt-5.6-terra": "medium",
+    "github-copilot/gpt-5.6-sol": "medium",
+    "github-copilot/gpt-6-astra": "medium"
+  },
+  "recap": {
+    "model": "github-copilot/gpt-5.4-mini"
+  },
+  "packages": [
+    "npm:pi-loadout",
+    "npm:pi-mcp-adapter",
+    "npm:pi-multimodal-proxy",
+    "npm:pi-simplify",
+    "npm:pi-web-access",
+    "npm:@juicesharp/rpiv-todo",
+    "npm:@narumitw/pi-goal",
+    "npm:@narumitw/pi-plan-mode",
+    {
+      "source": "npm:@narumitw/pi-statusline",
+      "extensions": []
+    },
+    "npm:@narumitw/pi-subagents",
+    "npm:pi-cache-optimizer",
+    "npm:pi-open-tui",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    {
+      "source": "npm:pi-observational-memory",
+      "extensions": [],
+      "skills": [],
+      "prompts": [],
+      "themes": []
+    },
+    "/Users/liyi/.pi/agent/local-packages/pi-observational-memory-oauth-baseurl",
+    "npm:pi-chrome",
+    "npm:@tmustier/pi-files-widget",
+    "npm:@almegal/pi-file-browser",
+    "git:https://github.com/L2ncE/pi-btw",
+    "npm:pi-session-summary",
+    "git:https://github.com/Dovyski/pi-recap",
+    "git:github.com/ijse/pi-model-router@v1.1.0"
+  ],
+  "hideThinkingBlock": true,
+  "showHardwareCursor": false,
+  "defaultTools": [
+    "read",
+    "bash",
+    "edit",
+    "write",
+    "grep",
+    "find",
+    "ls"
+  ],
+  "enabledModels": [
+    "github-copilot/gpt-5.6-terra",
+    "github-copilot/gpt-5.6-luna",
+    "github-copilot/gpt-5.6-sol",
+    "github-copilot/gpt-6-astra",
+    "github-copilot/gpt-5.3-codex",
+    "github-copilot/gpt-5.4-mini",
+    "github-copilot/gemini-3.8-flash",
+    "github-copilot/gpt-5.5",
+    "github-copilot/grok-4.6",
+    "github-copilot/gpt-5-mini",
+    "github-copilot/gpt-5.4",
+    "github-copilot/mai-code-1.1-flash",
+    "github-copilot/gemini-3.7-flash",
+    "github-copilot/gemini-3.6-flash",
+    "github-copilot/grok-4.5"
+  ],
+  "compaction": {
+    "enabled": true,
+    "reserveTokens": 16384,
+    "keepRecentTokens": 20000
+  },
+  "retry": {
+    "enabled": true,
+    "maxRetries": 3,
+    "baseDelayMs": 2000,
+    "provider": {
+      "maxRetries": 0,
+      "maxRetryDelayMs": 60000
+    }
+  },
+  "markdown": {
+    "mermaid": "streaming"
+  },
+  "skills": [
+    "~/.agents/skills"
+  ],
+  "enableSkillCommands": true,
+  "terminal": {
+    "showTerminalProgress": true
+  },
+  "tuiMode": "fullscreen",
+  "fullscreenExitOutput": "transcript",
+  "quietStartup": false,
+  "doubleEscapeAction": "tree"
+}

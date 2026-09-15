@@ -1,0 +1,23 @@
+# Pi secrets and live data — never commit
+agent/auth.json
+agent/sessions/
+agent/backups/
+agent/npm/
+agent/git/
+agent/web-search-cache/
+agent/mcp-cache.json
+agent/mcp-npx-cache.json
+agent/models-store.json
+agent/session-summary.json
+agent/pi-cache-optimizer-stats.d/
+agent/npm-security-backup.*/
+agent/settings.json.bak*
+agent/settings.json.before-*
+
+# Dependency and repository metadata copied from local packages
+**/node_modules/
+**/.git/
+**/.env
+**/.env.*
+!**/.env.example
+.DS_Store
